@@ -1,2 +1,1 @@
-# ansible
-https://medium.com/@amaurybsouza
+## Entendendo a parte conceitual do Ansible
