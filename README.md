@@ -1,1 +1,1 @@
-## Entendendo a parte conceitual do Ansible
+### Criação de playbooks para automação.
