@@ -1,0 +1,9 @@
+---
+- hosts: zabbix
+  tasks:
+  - name: Instalação do Nginx
+    yum:
+      name: nginx
+      state: latest
+...
+
