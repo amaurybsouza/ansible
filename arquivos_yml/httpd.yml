@@ -3,11 +3,9 @@
 - name: playbook name
   hosts: webserver
   tasks:
-          -name: name of the task
-                yum: 
-                name: httpd
-                state: latest
-
-
-
+    - name: name of the task
+      yum:
+        name: httpd
+        state: latest
+        
 ...
