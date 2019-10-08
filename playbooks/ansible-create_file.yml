@@ -1,0 +1,12 @@
+---
+- hosts: local
+  tasks:
+    - name: Create a file
+      file:
+        path: /tmp/amaurybsouza.txt
+        state: directory
+        mode: '0777'
+        
+
+
+...

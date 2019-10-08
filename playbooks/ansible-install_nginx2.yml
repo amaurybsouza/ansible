@@ -1,0 +1,13 @@
+---
+- hosts: local
+  tasks:
+    - name: copy a file
+      yum:
+        name: 
+          - postgresql-server
+          - pinta
+        state: latest
+
+
+
+...

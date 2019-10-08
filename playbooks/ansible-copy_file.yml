@@ -1,0 +1,11 @@
+---
+- hosts: local
+  tasks:
+    - name: copy a file
+      copy:
+        src: /etc/passwd
+        dest: /home/dicsi
+
+
+
+...
